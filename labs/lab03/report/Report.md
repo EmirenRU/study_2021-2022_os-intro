@@ -1,7 +1,7 @@
 ---
 ## Front matter
 title: "Отчёт по лабораторной работе №3"
-subtitle: "НКНбд-00-21"
+subtitle: "Markdown"
 author: "Самигуллин Эмиль Артурович"
 
 ## Generic otions
@@ -13,7 +13,6 @@ bibliography: bib/cite.bib
 csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 
 ## Pdf output format
-toc: true # Table of contents
 toc-depth: 2
 fontsize: 12pt
 linestretch: 1.5
@@ -53,8 +52,7 @@ biblatexoptions:
 figureTitle: "Рис."
 tableTitle: "Таблица"
 listingTitle: "Листинг"
-lofTitle: "Цель Работы"
-lotTitle: "Ход Работы"
+lofTitle: "Список иллюстраций"
 lolTitle: "Листинги"
 ## Misc options
 indent: true
@@ -64,47 +62,40 @@ header-includes:
   - \floatplacement{figure}{H} # keep figures where there are in the text
 ---
 
-# Цель работы.
+# Цель работы
 
-- Изучить Octave и как она работает.
+* Научиться оформлять отчёты с помощью легковесного языка разметки Markdown.
 
-# Ход работы
+# Задание
 
-1. Изучили "простейшие" операции (рис. [-@fig:001])
+* Сделайте отчёт по предыдущей лабораторной работе в формате Markdown.
+* В качестве отчёта просьба предоставить отчёты в 3 форматах: pdf, docx и md (в архиве, поскольку он должен содержать скриншоты, Makefile и т.д.)
 
-   ![ПРОСТЕЙШИЕ ОПЕРАЦИИ](image/1.png){ #fig:001 width=70% }
-   
-2. Изучили операции с векторами  (рис. [-@fig:002])
+# Выполнение лабораторной работы
 
-   ![ОПЕРАЦИИ С ВЕКТОРАМИ](image/2.png){ #fig:002 width=70% }
-   
-3. Вычислили проектор  (рис. [-@fig:003])
+1. Написал отчет в Markdown.
 
-   ![Проектор](image/3.png){ #fig:003 width=70% }
-   
-4. Изучили матричные операции  (рис. [-@fig:004])
+2. Создал pdf и docx документы из Markdown.
 
-   ![МАТРИЧНЫЕ ОПЕРАЦИИ](image/4.png){ #fig:004 width=70% }
-   
-5. Построение "простейших" графиков  (рис. [-@fig:005])
+<figure>![mountains](image/mkpdfdocx.png "Пейзаж с горами")
+	<img src="image/instgitflow.png" alt="Установка git-flow">
+	<figcaption>Компиляция md файла</figcaption>
+<figure>
 
-   ![ПРОСТЕЙШИЕ ГРАФИКИ](image/5.png){ #fig:005 width=70% }
-   
-6. Два графика на одном чертеже  (рис. [-@fig:006])
+3. Слил репозиторий на Github со своим локальным.
 
-   ![Два графика](image/6.png){ #fig:006 width=70% }
-   
-7. График $y = x^{2} sin(x)$ (рис. [-@fig:007])
+<figure>![mountains](image/pull.png "Пейзаж с горами")
+	<img src="image/instgitflow.png" alt="Установка git-flow">
+	<figcaption>Скачивание репозитория с Github</figcaption>
+<figure>
 
-   ![ГРАФИК $x^{2} sin(x)$](image/7.png){ #fig:007 width=70% }
-   
-8. Сравнили циклы и операции с векторами (рис. [-@fig:008])
+4. Отправил слитый репозиторий на Github.
 
-   ![Сравнение по времени](image/8.png){ #fig:008 width=70% }
-   
-# Вывод
+<figure>![mountains](image/push.png "Пейзаж с горами")
+	<img src="image/instgitflow.png" alt="Установка git-flow">
+	<figcaption>Отправка локального репозитория.</figcaption>
+<figure>
 
-- Во время выполнения лабораторной работы, мы научились пользоваться базово Octave.
+# Выводы
 
-::: {#refs}
-:::
+* Я создал отчет с помощью разметки Markdown.

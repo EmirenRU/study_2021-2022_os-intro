@@ -1,0 +1,35 @@
+---
+## Front matter
+title: "Презентация по индивидуальному проекту №2"
+subtitle: "НКНбд-01-21"
+author: "Самигуллин Эмиль Артурович"
+
+## Generic otions
+lang: ru-RU
+
+## Formatting
+toc: false
+slide_level: 2
+theme: metropolis
+header-includes: 
+ - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
+ - '\makeatletter'
+ - '\beamer@ignorenonframefalse'
+ - '\makeatother'
+aspectratio: 43
+section-titles: true
+---
+
+## Цель работы.
+
+- Научиться размещать на сайте данные о себе
+
+- Сделать посты на тему и о себе.
+
+## Ход работы
+
+- Добавление данных о себе на сайте
+
+- Создание постов и дальнейшее его размещение
+
+## Вывод
